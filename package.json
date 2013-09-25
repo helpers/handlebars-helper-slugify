@@ -1,0 +1,37 @@
+{
+  "name": "helper-slugify",
+  "version": "0.1.0",
+  "description": "Convert strings into URL slugs.",
+  "homepage": "https://github.com/helpers/helper-slugify",
+  "author": {
+    "name": "Hariadi Hinta",
+    "url": "https://github.com/hariadi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helpers/helper-slugify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/helpers/helper-slugify/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/helpers/helper-slugify/blob/master/LICENSE-MIT"
+    }
+  ],
+  "devDependencies": {},
+  "keywords": [
+    "slugify",
+    "helper",
+    "mixin",
+    "handlebars helper",
+    "underscore mixin",
+    "filter",
+    "template filter",
+    "swig filter",
+    "lodash",
+    "underscore",
+    "convenience methods"
+  ]
+}
