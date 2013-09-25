@@ -4,8 +4,8 @@
   "description": "Convert strings into URL slugs.",
   "homepage": "https://github.com/helpers/helper-slugify",
   "author": {
-    "name": "Hariadi Hinta",
-    "url": "https://github.com/hariadi"
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
       "url": "https://github.com/helpers/helper-slugify/blob/master/LICENSE-MIT"
     }
   ],
+  "main" : "slugify.js",
   "devDependencies": {},
   "keywords": [
     "slugify",
