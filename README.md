@@ -1,4 +1,4 @@
-# {{slugify}} [![NPM version](https://badge.fury.io/js/slugify.png)](http://badge.fury.io/js/slugify)
+# {{slugify}} [![NPM version](https://badge.fury.io/js/helper-slugify.png)](http://badge.fury.io/js/helper-slugify)
 
 > Convert strings into URL slugs.
 
