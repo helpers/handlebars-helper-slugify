@@ -1,38 +1,45 @@
 {
-  "name": "helper-slugify",
-  "version": "0.1.0",
-  "description": "Convert strings into URL slugs.",
-  "homepage": "https://github.com/helpers/helper-slugify",
+  "name": "handlebars-helper-slugify",
+  "description": "{{slugify}} handlebars helper. Uses the awesome underscore.string to transform text into a URL slug. Replaces whitespaces, accentuated and special characters with a dash.",
+  "version": "0.2.0",
+  "homepage": "https://github.com/helpers/handlebars-helper-slugify",
   "author": {
     "name": "Jon Schlinkert",
     "url": "https://github.com/jonschlinkert"
   },
+  "contributors": [
+    {
+      "name": "Hariadi Hinta",
+      "url": "https://github.com/hariadi"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/helpers/helper-slugify.git"
+    "url": "https://github.com/helpers/handlebars-helper-slugify.git"
   },
   "bugs": {
-    "url": "https://github.com/helpers/helper-slugify/issues"
+    "url": "https://github.com/helpers/handlebars-helper-slugify/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/helpers/helper-slugify/blob/master/LICENSE-MIT"
+      "url": "https://github.com/helpers/handlebars-helper-slugify/blob/master/LICENSE-MIT"
     }
   ],
-  "main" : "slugify.js",
-  "devDependencies": {},
+  "main": "./index.js",
+  "dependencies": {
+    "underscore.string": "~2.3.3"
+  },
   "keywords": [
-    "slugify",
-    "helper",
-    "mixin",
+    "assemble",
     "handlebars helper",
-    "underscore mixin",
-    "filter",
-    "template filter",
-    "swig filter",
+    "handlebars",
+    "helper",
     "lodash",
-    "underscore",
-    "convenience methods"
+    "slugify",
+    "url slug",
+    "dasherize",
+    "dashify",
+    "slug"
   ]
 }
