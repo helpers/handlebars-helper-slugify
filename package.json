@@ -1,7 +1,7 @@
 {
   "name": "handlebars-helper-slugify",
   "description": "{{slugify}} handlebars helper. Uses the awesome underscore.string to transform text into a URL slug. Replaces whitespaces, accentuated and special characters with a dash.",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "homepage": "https://github.com/helpers/handlebars-helper-slugify",
   "author": {
     "name": "Jon Schlinkert",
@@ -27,19 +27,20 @@
     }
   ],
   "main": "./index.js",
-  "dependencies": {
-    "underscore.string": "~2.3.3"
-  },
   "keywords": [
     "assemble",
-    "handlebars helper",
-    "handlebars",
-    "helper",
-    "lodash",
-    "slugify",
-    "url slug",
+    "assemblehelper",
     "dasherize",
     "dashify",
-    "slug"
-  ]
+    "handlebars",
+    "helper",
+    "slug",
+    "slugify",
+    "slugifier",
+    "url"
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "verb": "^0.2.6"
+  }
 }
