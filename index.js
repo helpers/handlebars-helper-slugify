@@ -15,7 +15,8 @@
 
 var slugify = require('./slugify.js');
 
-module.exports = function () {
+module.exports = function (assemble) {
+  var Handlebars = assemble.Handlebars;
   var helpers = {};
 
   helpers.slugify = function (str) {
