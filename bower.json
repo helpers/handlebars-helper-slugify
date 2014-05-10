@@ -1,0 +1,7 @@
+{
+  "name": "handlebars-helper-slugify",
+  "version": "0.3.2",
+  "main": [
+    "./index.js"
+  ]
+}
